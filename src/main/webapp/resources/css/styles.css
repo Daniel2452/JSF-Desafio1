@@ -1,0 +1,46 @@
+.hero {
+    background-color: #e0f7fa;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    color: #00796b;
+}
+
+.navbar {
+    background-color: #00796b;
+}
+
+.navbar-brand, .nav-link {
+    color: #ffffff !important;
+}
+
+.table .text-center {
+    text-align: center;
+}
+
+.table img {
+    max-width: 150px;
+    height: auto;
+}
+
+.footer {
+    background-color: #e0f7fa;
+    padding: 1rem;
+}
+
+.footer h5 {
+    color: #00796b;
+}
+
+.footer p {
+    color: #004d40;
+}
+
+.footer .text-center {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #004d40;
+}

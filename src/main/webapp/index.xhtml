@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<h:head>
+    <title>Tienda de Insumos Médicos</title>
+    <h:outputStylesheet library="css" name="bootstrap.min.css"/>
+    <h:outputStylesheet library="css" name="styles.css"/>
+</h:head>
+<h:body>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Insumos Médicos</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container hero text-center">
+        <h1>Bienvenido a la Tienda de Insumos Médicos</h1>
+        <p class="lead">Encuentra todo lo que necesitas para el cuidado de la salud.</p>
+    </div>
+
+    <div class="container">
+        <h:form>
+            <div class="table-responsive">
+                <h:dataTable value="#{productBean.products}" var="product" styleClass="table table-striped table-bordered">
+                    <h:column>
+                        <f:facet name="header">
+                            <span class="font-weight-bold">Nombre</span>
+                        </f:facet>
+                        #{product.name}
+                    </h:column>
+                    <h:column>
+                        <f:facet name="header">
+                            <span class="font-weight-bold">Descripción</span>
+                        </f:facet>
+                        #{product.description}
+                    </h:column>
+                    <h:column>
+                        <f:facet name="header">
+                            <span class="font-weight-bold">Precio</span>
+                        </f:facet>
+                        $#{product.price}
+                    </h:column>
+                    <h:column>
+                        <f:facet name="header">
+                            <span class="font-weight-bold">Imagen</span>
+                        </f:facet>
+                        <div class="text-center">
+                            <h:graphicImage value="#{product.imageUrl}" styleClass="img-fluid"/>
+                        </div>
+                    </h:column>
+                </h:dataTable>
+            </div>
+            <div class="text-center mt-4">
+                <h:commandButton value="Generar JSON" action="#{productBean.generateJson}" styleClass="btn btn-primary"/>
+            </div>
+            <h:panelGroup rendered="#{not empty productBean.message}">
+                <div class="alert alert-info mt-3">
+                    <h:outputText value="#{productBean.message}"/>
+                </div>
+            </h:panelGroup>
+        </h:form>
+    </div>
+
+    <footer class="footer mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Contáctanos</h5>
+                    <p>
+                        Teléfono: +1 234 567 890 <br/>
+                        Email: contacto@insumosmedicos.com
+                    </p>
+                </div>
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Ubicación</h5>
+                    <p>
+                        123 Calle Principal <br/>
+                        Ciudad, País
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2024 Tienda de Insumos Médicos
+        </div>
+    </footer>
+
+</h:body>
+</html>
