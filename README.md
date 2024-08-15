@@ -12,8 +12,7 @@ Tecnologías Utilizadas
 
 ## Despliegue
 Abrir el IDE de IntelliJ IDEA y dar click al botón "Open" para buscar el proyecto descargado.
-
-Al abrir el proyecto, nos dirigimos al apartado "File" y damos click en la opción "Project Structure"
+Una vez abierto, nos dirigimos al apartado "File" y damos click en la opción "Project Structure"
 ![image](https://github.com/user-attachments/assets/e7ff9975-6628-4de3-b603-76c663b7c679)
 
 Seleccionaremos la opción (14 java version "14.0.2") y luego dar click en "Aplpy" y "Ok"
@@ -29,7 +28,7 @@ El resultado al ejecutar el proyecto debe de ser el siguiente:
 ![image](https://github.com/user-attachments/assets/9f9dbf8d-17eb-4960-af01-4370f8ca3b2e)
 
 Por último, al dar click al botón "Generar JSON" se mostrará un enlace en el cuál el resultado debe ser el siguiente:
-![image](https://github.com/user-attachments/assets/faaf2a72-b170-447e-9c3f-099bd8a4f10d)
+![image](https://github.com/user-attachments/assets/88295327-ecc0-44e2-aa51-7f32606d7961)
 
 ## Descripcion de los Paquetes
 ### beans:
