@@ -28,7 +28,7 @@ Nos dirigimos a la sección "Deployment" y agregaremos el archivo "war" tanto en
 El resultado al ejecutar el proyecto debe de ser el siguiente:
 ![image](https://github.com/user-attachments/assets/9f9dbf8d-17eb-4960-af01-4370f8ca3b2e)
 
-Por último dar click al botón "Generar JSON" se generará un enlace y el resultado será el siguiente:
+Por último, al dar click al botón "Generar JSON" se mostrará un enlace en el cuál el resultado debe ser el siguiente:
 ![image](https://github.com/user-attachments/assets/faaf2a72-b170-447e-9c3f-099bd8a4f10d)
 
 ## Descripcion de los Paquetes
