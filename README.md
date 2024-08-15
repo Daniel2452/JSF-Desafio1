@@ -12,6 +12,7 @@ Tecnologías Utilizadas
 
 ## Despliegue
 Abrir el IDE de IntelliJ IDEA y dar click al botón "Open" para buscar el proyecto descargado.
+
 Una vez abierto, nos dirigimos al apartado "File" y damos click en la opción "Project Structure"
 ![image](https://github.com/user-attachments/assets/e7ff9975-6628-4de3-b603-76c663b7c679)
 
