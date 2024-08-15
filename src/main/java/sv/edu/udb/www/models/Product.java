@@ -1,4 +1,4 @@
-package sv.edu.udb.www.models; // Cambia el paquete si es necesario
+package sv.edu.udb.www.models;
 
 public class Product {
     private String name;
@@ -13,7 +13,7 @@ public class Product {
         this.imageUrl = imageUrl;
     }
 
-    // Getters y Setters
+
     public String getName() {
         return name;
     }

@@ -1,14 +1,11 @@
 package sv.edu.udb.www.beans;
 
-import sv.edu.udb.www.models.Product; // Asegúrate de que la ruta del paquete sea correcta
+import sv.edu.udb.www.models.Product;
 import javax.annotation.PostConstruct;
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Named;
 import java.util.ArrayList;
 import java.util.List;
-import javax.faces.context.FacesContext;
-import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
 
 @Named
 @RequestScoped
@@ -44,7 +41,7 @@ public class ProductBean {
 
     public String generateJson() {
 
-        this.message = "Querido developer, este es el endpoint para consumir el listado de productos como servicio: http://localhost:8080/DWF404_PENA_CARLOS_MOLINA_DANIEL-1.0-SNAPSHOT/rest/products";
+        this.message = "¡Hola Developer! este es el endpoint para consumir el listado de productos como servicio: http://localhost:8080/DWF404_PENA_CARLOS_MOLINA_DANIEL-1.0-SNAPSHOT/rest/products";
         return null;
     }
 

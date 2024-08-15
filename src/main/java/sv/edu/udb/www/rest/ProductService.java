@@ -22,7 +22,6 @@ public class ProductService {
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public Response getProducts() {
-        // Devuelve la lista de productos en formato JSON
         return Response.ok(productListAsJson()).build();
     }
 
