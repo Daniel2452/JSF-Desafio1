@@ -7,8 +7,8 @@ Tecnologías Utilizadas
 
 ## Tecnologías Utilizadas
 * Java: JDK 14 -> https://www.oracle.com/java/technologies/javase/jdk14-archive-downloads.html
-* Servidor de Aplicaciones: Payara Server 5
-* Framework: Java EE 8
+* Servidor de Aplicaciones: Payara Ultimate Tools
+* Framework: Jakarta EE Server Faces (JSF) versión 8
 
 ## Despliegue
 Abrir el IDE de IntelliJ IDEA y dar click al botón "Open" para buscar el proyecto descargado.
