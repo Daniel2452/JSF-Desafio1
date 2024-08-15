@@ -16,7 +16,7 @@ Abrir el IDE de IntelliJ IDEA y dar click al botón "Open" para buscar el proyec
 Una vez abierto, nos dirigimos al apartado "File" y damos click en la opción "Project Structure"
 ![image](https://github.com/user-attachments/assets/e7ff9975-6628-4de3-b603-76c663b7c679)
 
-Seleccionaremos la opción (14 java version "14.0.2") y luego dar click en "Aplpy" y "Ok"
+Seleccionaremos la opción (14 java version "14.0.2"). Luego dar click en los botones "Aplpy" y "Ok"
 ![image](https://github.com/user-attachments/assets/70f007fb-e68a-4e2a-bd09-ceddbe0f08f9)
 
 Ahora nos dirigimos al apartado "Run/Debug Configurations" y dar click a la opción "Edit Configurations..."
