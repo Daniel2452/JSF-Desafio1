@@ -22,6 +22,7 @@ Ahora nos dirigimos al apartado "Run/Debug Configurations" y dar click a la opci
 ![image](https://github.com/user-attachments/assets/103d75ab-79c1-49e5-99bb-dd414c497f8a)
 
 Nos dirigimos a la sección "Deployment" y agregaremos el archivo "war" tanto en "Deploy at the server startup" como en "Before Launch"
+
 ![image](https://github.com/user-attachments/assets/ff2f207e-57a7-404c-bcc0-676846e89598)
 
 El resultado al ejecutar el proyecto debe de ser el siguiente:
