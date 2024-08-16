@@ -13,12 +13,15 @@ El proyecto fue construido en base a los requerimientos del desafío técnico de
 Abrir el IDE de IntelliJ IDEA y dar click al botón "Open" para buscar el proyecto descargado.
 
 Una vez abierto, nos dirigimos al apartado "File" y damos click en la opción "Project Structure"
+
 ![image](https://github.com/user-attachments/assets/e7ff9975-6628-4de3-b603-76c663b7c679)
 
 Seleccionaremos la opción (java version "14.0.2") luego dar click en el botón "Aplpy" y "Ok"
+
 ![image](https://github.com/user-attachments/assets/70f007fb-e68a-4e2a-bd09-ceddbe0f08f9)
 
 Ahora nos dirigimos al apartado "Run/Debug Configurations" y dar click a la opción "Edit Configurations..."
+
 ![image](https://github.com/user-attachments/assets/103d75ab-79c1-49e5-99bb-dd414c497f8a)
 
 Nos dirigimos a la sección "Deployment" y agregaremos el archivo "war" tanto en "Deploy at the server startup" como en "Before Launch"
@@ -26,9 +29,11 @@ Nos dirigimos a la sección "Deployment" y agregaremos el archivo "war" tanto en
 ![image](https://github.com/user-attachments/assets/ff2f207e-57a7-404c-bcc0-676846e89598)
 
 El resultado al ejecutar el proyecto debe de ser el siguiente:
+
 ![image](https://github.com/user-attachments/assets/9f9dbf8d-17eb-4960-af01-4370f8ca3b2e)
 
 Por último, al dar click al botón "Generar JSON" se mostrará un enlace en el cuál el resultado debe ser el siguiente:
+
 ![image](https://github.com/user-attachments/assets/88295327-ecc0-44e2-aa51-7f32606d7961)
 
 ## Descripcion de los Paquetes
