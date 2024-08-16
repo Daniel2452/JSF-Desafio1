@@ -3,7 +3,6 @@
 
 Esta aplicación JSF presenta un catálogo de productos básico, incluyendo una API REST para consumir los datos en formato JSON. 
 El proyecto fue construido en base a los requerimientos del desafío técnico de la materia Desarrollo de aplicaciones web con Frameworks donde se nos solicitaba un prototipo de una aplicación que mostrara insumos médicos a la venta.
-Tecnologías Utilizadas
 
 ## Tecnologías Utilizadas
 * Java: JDK 14 -> https://www.oracle.com/java/technologies/javase/jdk14-archive-downloads.html
