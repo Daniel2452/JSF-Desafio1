@@ -50,4 +50,4 @@ Contiene las clases anotadas con @Path que exponen servicios REST. Estas clases 
 
 ## Contribuidores:
 * Carlos Peña [https://github.com/penaherrera]
-* Daniel Rivas [https://github.com/Daniel2452]
+* Daniel Rivera [https://github.com/Daniel2452]
